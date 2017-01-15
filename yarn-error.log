@@ -1,0 +1,33 @@
+Arguments: 
+  /usr/local/Cellar/node/6.7.0/bin/node /usr/local/bin/yarn add react
+
+PATH: 
+  /Users/Flaque/.rvm/gems/ruby-2.3.0/bin:/Users/Flaque/.rvm/gems/ruby-2.3.0@global/bin:/Users/Flaque/.rvm/rubies/ruby-2.3.0/bin:/opt/local/bin:/opt/local/sbin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Users/Flaque/.local/bin:/Users/Flaque/.cabal/bin:/Applications/ghc-7.10.2.app/Contents/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/Flaque/.rvm/bin
+
+Yarn version: 
+  0.18.1
+
+Node version: 
+  6.7.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "webpack",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com registry.yarnpkg.com:443
+      at errnoException (dns.js:28:10)
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
