@@ -1,0 +1,13 @@
+'use strict'
+
+import React from 'react';
+import renderer from 'react-test-renderer'
+import ReactTestUtils from 'react-addons-test-utils'
+import {{componentName}} from './{{componentName}}.jsx'
+
+test('{{componentName}} renders correctly', () => {
+  const tree = renderer.create(
+    <{{componentName}}/>
+  ).toJSON();
+  expect(tree).toMatchSnapshot();
+})
