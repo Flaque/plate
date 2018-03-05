@@ -12,7 +12,7 @@
     "babel": "^6.5.2",
     "babel-core": "^6.21.0",
     "css-loader": "^0.26.1",
-    "jest-cli": "^18.1.0",
+    "jest-cli": "^19.0.0",
     "path": "^0.12.7",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
@@ -37,7 +37,16 @@
   },
   "jest": {
     "scriptPreprocessor": "<rootDir>/node_modules/webpack-babel-jest",
-    "testFileExtensions": ["es6", "js", "jsx"],
-    "moduleFileExtensions": ["js", "jsx", "json", "es6"]
+    "testFileExtensions": [
+      "es6",
+      "js",
+      "jsx"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "jsx",
+      "json",
+      "es6"
+    ]
   }
 }
